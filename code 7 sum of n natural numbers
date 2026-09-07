@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int i=1,sum=0,n;// int means initialised
+    printf("enter the value of number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)/* first shows i=1 then i<n true then i++ means first 1 then increment so 2 then sum=0+1 then prints */
+      
+        {
+            sum=sum+i;
+                }
+    printf("the sum of %d number is %d",n,sum);
+        
+}
