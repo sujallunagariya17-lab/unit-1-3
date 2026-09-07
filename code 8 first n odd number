@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+int main()
+{
+    int i=1,sum=0,n;
+    printf("enter the value of number-:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i=i+2);
+      
+        {
+            
+            sum=sum+i;
+                }
+    
+    printf("the sum of %d number is %d",n,sum);
+        
+}
